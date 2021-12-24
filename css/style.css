@@ -1,0 +1,208 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-weight: bold;
+}
+/*start header*/
+.header_bg{
+    width: 100%;
+    height: 550px;
+    background-image: url(../images/slider/slid_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+.nav_logo img{
+    width: 60%;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}.navbar ul li a:hover{
+    color:black;
+}
+.nav_container{
+    background-color: #7282a3;
+    color: white;
+}
+/*start style of text in header*/
+.header_text {
+    width: 50%;
+    color: white;
+}
+/*start style of arrow in header*/
+.hedaer_arrow1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.hedaer_arrow2{
+    position: absolute;
+    top: 50%;
+    right:5%;
+}
+/*start style of about*/
+.about{
+    width: 70%;
+}
+.about_img img{
+    width: 75%;
+}
+/*end style of about*/
+/*start style of team*/
+.team{
+    background-color: rgb(245, 245, 245);
+}
+.team_tittle{
+    width: 65%;
+}
+.team_tittle >p{
+    color: rgb(68, 67, 67);
+}
+.team_items{
+    width: 70%;
+}
+.team_item img{
+    width: 90%;
+}
+.team_text{
+    font-size: 12px;
+    
+}
+.team_icons i{
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+/*end style of team*/
+/*start style of destination*/
+.destination_tittle{
+    width: 70%;
+}
+/*style of destination items*/
+.destination_items{
+    width: 70%;
+    margin: auto;
+}
+.destination_item img{
+    width: 90%;
+}
+.destination_item:hover{
+    box-shadow: 0px 1px 10px 0px lightgrey;
+    transition: all 1s;
+}
+.destination_btn{
+    border: 1px solid rgb(8, 145, 8);
+    color: rgb(8, 145, 8);
+}
+.destination_btn:hover{
+    border: 1px solid rgb(8, 145, 8);
+    color: white;
+    background-color:rgb(8, 145, 8) ;
+}
+/*end style of destination*/
+/*start style of customer*/
+.customer{
+    background-color: rgb(245, 245, 245);
+}
+/*style of customer items*/
+.customer_items{
+    width: 70%;
+    margin: auto;
+}
+.customer_item{
+    background-color: white;
+}
+.customer_item .customer_text{
+    box-shadow: 0px 1px 10px 0px lightgrey;
+    position: relative;
+}
+.customer_text::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: -5%;
+    left: 10%;
+    transform: rotate(45deg);
+}
+.cutomer_coment{
+    background-color: rgb(245, 245, 245);
+}
+.cutomer_img{
+    width: 30%;
+}
+.cutomer_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.customer_icon i{
+    color: goldenrod;
+}
+/*end style of customer*/
+/*start style of features*/
+.features_items{
+    width: 70%;
+}
+.features_img img{
+    width: 100%;
+}
+/*end style of features*/
+/*start style of blog*/
+.blog{
+    background-color: rgb(245, 245, 245);
+}
+.blog_tittle{
+    width: 60%;
+}
+/*blog items*/
+.blog_items{
+    width: 70%;
+}
+.blog_item{
+    background-color: white;
+}
+.blog_item img{
+    width: 95%;
+}
+.blog_item .blog_span{
+    color: lightgray;
+}
+.blog_item  .blog_text > p{
+    color: rgb(112, 112, 112);
+}
+/*end style of blog*/
+/*strat style of footer*/
+.footer{
+    background-color: black;
+}
+.footer_items{
+    width: 70%;
+}
+.footer_item{
+    color: rgb(221, 221, 221);
+}
+.footer_list ul li a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+.footer_button a{
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 0;
+}
+.footer_button a:hover{
+    color: white;
+}
+.footer_copy{
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid lightgray;
+}
+.footer_copy >p{
+    color: rgb(221, 221, 221);
+
+}
+/*end style of footer*/
